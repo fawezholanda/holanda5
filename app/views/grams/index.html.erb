@@ -6,3 +6,6 @@
   <%= image_tag gram.picture %>
 </div>
 <% end %>
+<% @comments.each do |comment| %>
+  <%= comment.message %>
+<% end %>
